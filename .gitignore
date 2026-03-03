@@ -1,0 +1,8 @@
+bin/
+*.test
+*.out
+*.pprof
+.idea/
+.vscode/
+*.swp
+*.swo

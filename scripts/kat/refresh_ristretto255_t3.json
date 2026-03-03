@@ -1,0 +1,43 @@
+{
+  "curve": "ristretto255",
+  "variant": "refresh",
+  "seed": "lens.reshare.kat.v1",
+  "t_old": 3,
+  "t_new": 3,
+  "old_set": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "new_set": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "old_shares_hex": {
+    "1": "3ac06915f9ac6c23ee35ed4e6708c44fae3e6384bf50369df69f1f0f9c6fdf04",
+    "2": "6b59f3452cdf0a277d9db906eb73ae5175fbeaa870b0c0bcc1a60f94d3469b0c",
+    "3": "bcc1f3b83795c3641410a46d805317d1a6aaeab1cf20faccd114e92a79020f0f",
+    "4": "2df96a6e1bcf96dcb38dac8327a7fecd424c629fdca1e2cd26eaabd38ca23a0c",
+    "5": "beff5866d78c848e5b16d348e06e644849e0517197337abfc026588e0e271e04"
+  },
+  "new_shares_hex": {
+    "1": "ac804b9a21de551604eb6267de4f1480ac45b4d70276c55b77c298b3deb8540d",
+    "2": "0d3dd6eb7ca87b1e43ade48a188fdf7fa135a67a547982a7fbeaafd039031e08",
+    "3": "26d3e2d5e4237f22d159b3f660c277f43044292db10b9251fd795ef3e35b3708",
+    "4": "f742715859506022aef0ceaab7e9dcdd5a713def182df4597c6fa41bddc2a00d",
+    "5": "93b88b16c0ca0cc603d53f043e0b30271fbde2c08bdda8c078cb814925385a08"
+  },
+  "recovered_secret_hex": "16ca4c84b861fbb13d7636e9d30a37e051745344bc015b6e7000199cd27cdb07",
+  "notes": {
+    "curve_legal_values": "ed25519, secp256k1, ristretto255",
+    "deterministic_rng": "blake3-keyed",
+    "format_version": "1.0",
+    "intended_consumer": "luxcpp/crypto/lens/reshare cross-port byte-equal validation",
+    "variant_legal_values": "reshare, refresh"
+  }
+}
