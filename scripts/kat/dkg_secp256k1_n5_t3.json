@@ -1,0 +1,28 @@
+{
+  "curve": "secp256k1",
+  "n": 5,
+  "t": 3,
+  "seed": "lens.dkg.kat.v1",
+  "group_key_hex": "032886818473e9eed5c261f3ce33659632acff06e95245cf570ce55564e1b4fc4f",
+  "shares_hex": {
+    "1": "23a35acf279c76980446a2372818a9513ac164f38465f92de3a293703341aa10",
+    "2": "662292c58d27f8e592b3381979741836c5a3209d2730fec625c3a98624ab7fcb",
+    "3": "9c2ae0381d055a7259872b35a16846ca74a458d8e6403e01f0db13a0f48ec209",
+    "4": "c5bc4326d7349b3e58c27b8b9ff5350c47c50da6c193b6e144e8d1c0a2eb70ca",
+    "5": "e2d6bb91bbb5bb499065291b751ae2fc3f053f06b92b696421ece3e52fc18c0e"
+  },
+  "verification_shares_hex": {
+    "1": "03014d0423e7eabbb53f39635e54140eb9dfc0cd6b2cf8c55135bb38c600cd7592",
+    "2": "029438c5a104a1d06078949ebc25a0c8e061a285ecf0057d516cf7a83fb06c5bf6",
+    "3": "02fc0a974a936f8ab641514de3013330ef49cef9d5869e6cbeac63bd6c9a1725bd",
+    "4": "038922e97c0d7f476f015b3f3746351fbc307e716d0d6e3ace4f1ce35b7177e857",
+    "5": "025c7d8400925cdb757c423017bb00078afa6a3b5ae5c7c78aae0c22002b7f7da2"
+  },
+  "party_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
