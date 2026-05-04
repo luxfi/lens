@@ -6,3 +6,7 @@ bin/
 .vscode/
 *.swp
 *.swo
+
+# Built oracle binaries (`go build ./cmd/...` writes to repo root)
+/cross_runtime_oracle
+/cross_runtime_verify
