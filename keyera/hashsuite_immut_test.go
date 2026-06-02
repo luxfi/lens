@@ -12,13 +12,13 @@
 //
 // Citations (canonical proof bucket):
 //
-//   proofs/definitions/transcript-binding.tex
-//     Definition ref:pulsar-transcript (the lens transcript layout is
-//     symmetric with the pulsar one)
-//   proofs/pulsar/hash-suite-separation.tex
-//     Theorem ref:hash-suite-separation (Pulsar; the curve-side
-//     argument is structurally identical and lives in the proofs/lens
-//     bucket as a mirror reference)
+//	proofs/definitions/transcript-binding.tex
+//	  Definition ref:pulsar-transcript (the lens transcript layout is
+//	  symmetric with the pulsar one)
+//	proofs/pulsar/hash-suite-separation.tex
+//	  Theorem ref:hash-suite-separation (Pulsar; the curve-side
+//	  argument is structurally identical and lives in the proofs/lens
+//	  bucket as a mirror reference)
 package keyera
 
 import (

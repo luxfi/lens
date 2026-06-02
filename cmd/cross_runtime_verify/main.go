@@ -27,23 +27,23 @@ import (
 )
 
 type vector struct {
-	Curve              string         `json:"curve"`
-	N                  int            `json:"n"`
-	T                  int            `json:"t"`
-	Seed               string         `json:"seed"`
-	MessageHex         string         `json:"message_hex"`
-	SaltHex            string         `json:"salt_hex"`
-	Signers            []int          `json:"signers"`
-	GroupKeyHex        string         `json:"group_key_hex"`
-	SharesHex          map[int]string `json:"shares_hex"`
-	VerSharesHex       map[int]string `json:"verification_shares_hex"`
-	LambdaFullHex      map[int]string `json:"lambda_full_hex"`
-	LambdaSignersHex   map[int]string `json:"lambda_signers_hex"`
-	CommitsDHex        map[int]string `json:"commits_D_hex"`
-	CommitsEHex        map[int]string `json:"commits_E_hex"`
-	ResponsesZHex      map[int]string `json:"responses_z_hex"`
-	SigRHex            string         `json:"sig_R_hex"`
-	SigZHex            string         `json:"sig_z_hex"`
+	Curve            string         `json:"curve"`
+	N                int            `json:"n"`
+	T                int            `json:"t"`
+	Seed             string         `json:"seed"`
+	MessageHex       string         `json:"message_hex"`
+	SaltHex          string         `json:"salt_hex"`
+	Signers          []int          `json:"signers"`
+	GroupKeyHex      string         `json:"group_key_hex"`
+	SharesHex        map[int]string `json:"shares_hex"`
+	VerSharesHex     map[int]string `json:"verification_shares_hex"`
+	LambdaFullHex    map[int]string `json:"lambda_full_hex"`
+	LambdaSignersHex map[int]string `json:"lambda_signers_hex"`
+	CommitsDHex      map[int]string `json:"commits_D_hex"`
+	CommitsEHex      map[int]string `json:"commits_E_hex"`
+	ResponsesZHex    map[int]string `json:"responses_z_hex"`
+	SigRHex          string         `json:"sig_R_hex"`
+	SigZHex          string         `json:"sig_z_hex"`
 }
 
 type fixedReader struct {

@@ -196,7 +196,7 @@ func TestFuzzCorpus_LensGroupKeyReplay(t *testing.T) {
 		primitives.NewRistretto255(),
 	}
 	for _, raw := range [][]byte{
-		{}, // truncated
+		{},     // truncated
 		{0x00}, // empty curve name + missing X
 		append([]byte{0x09}, []byte("secp256k1...")...), // missing X
 	} {
